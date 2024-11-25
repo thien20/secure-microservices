@@ -11,7 +11,7 @@ This project demonstrates a microservices architecture using **C#** and **Python
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/secure-microservices.git
+   git clone git@github.com:thien20/secure-microservices.git / https://github.com/thien20/secure-microservices.git
    cd secure-microservices
 2. Open two terminal tabs or cmd tabs:
     
