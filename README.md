@@ -22,14 +22,33 @@ This project demonstrates a microservices architecture using **C#** and **Python
     dotnet build
     dotnet run
     ```
-The service will run at http://localhost:5085.
+    The service will run at http://localhost:5085.
 
-   Tab 2: Navigate to and run the Python service:
+    Tab 2: Navigate to and run the Python service:
 
+    ```bash
     cd BusinessService
-    uvicorn app.main:app --reload
-    The service will run at http://127.0.0.1:8000.
+    ```
+    ### **Activate virtual enviorment:**
     
+    - For Windows
+    ```bash
+    business-env/Scripts/activate
+    ```
+    - For Mac
+    ```bash
+    source bussiness-env/bin/activate
+    ```
+
+    Run App
+    ```bash
+    uvicorn app.main:app --reload
+    ```
+    
+
+    
+    The service will run at http://127.0.0.1:8000.
+
 # Usage
 ### Auth Service (C#)
 1. Access the service: Open http://localhost:5085 in your browser.
@@ -46,7 +65,7 @@ The service will run at http://localhost:5085.
 ### Auth Service (C#)
 1. Navigate to the test directory:
     ```bash
-        cd AuthService.Tests
+    cd AuthService.Tests
     ```
 2. Run tests:
     ```bash
